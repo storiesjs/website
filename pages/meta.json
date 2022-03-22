@@ -1,7 +1,12 @@
 {
   "index": "Introduction",
-  "setup": "Get Started",
-  "nextra": "My nextra",
-  "nested": "Nested...",
-  "blog": "Blog"
+  "install": "Install",
+  "stories": "Stories",
+  "docs": "Documentation",
+  "testing": "Testing",
+  "distribute": "Distribution",
+  "addons": "Addons",
+  "configure": "Configuration",
+  "api": "API",
+  "contribute": "Contribute"
 }
