@@ -9,14 +9,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Stories',
-  tagline: 'The web-components for UI development',
+  tagline: 'The Web Components based tool for UI development',
   url: 'https://www.storiesjs.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'StoriesJS', // Usually your GitHub org/user name.
-  projectName: 'Stories', // Usually your repo name.
+  organizationName: 'storiesjs', // Usually your GitHub org/user name.
+  projectName: 'stories', // Usually your repo name.
 
   presets: [
     [
@@ -53,7 +53,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'intro/overview',
             position: 'left',
             label: 'Docs',
           },
@@ -61,6 +61,10 @@ const config = {
           {
             href: 'https://github.com/storiesjs/website',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'search',
             position: 'right',
           },
         ],
@@ -73,15 +77,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: '/docs/intro/overview',
               },
               {
                 label: 'Guides',
-                to: '/docs/intro',
+                to: '/docs',
               },
               {
                 label: 'Components',
-                to: '/docs/intro',
+                to: '/docs',
               }
             ],
           },

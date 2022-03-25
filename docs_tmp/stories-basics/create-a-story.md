@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+title: Create a Story
 ---
 
 # Create a Page
