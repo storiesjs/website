@@ -13,8 +13,8 @@ Stories Components can be included from a CDN for quick testing in a [Plunker](h
 It's recommended to use [jsdelivr](https://www.jsdelivr.com/) to access the Stories Components from a CDN. To get the latest version, add the following inside the `<head>` element in an HTML file, or where external assets are included in the online code editor:
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/@stories-js/stories-components@0.1.1/dist/esm/index.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@stories-js/stories-components@0.1.1/dist/index.cjs.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@stories-js/components@latest/dist/esm/index.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@stories-js/components@latest/dist/index.cjs.js"></script>
 ```
 
 With this it's possible to use all of the Stories Components without having to install a framework.
@@ -25,10 +25,11 @@ This does not install any frameworks integrations. This allows use of the Storie
 
 ## Stories in Angular project
 
-When using Stories Components in an Angular project, install the latest `@stories-js/stories-angular` package from [npm](https://npmjs.com). This comes with all of the Stories Components and Angular specific services and story renderer.
+When using Stories Components in an Angular project, install the latest `@stories-js/components` and `@stories-js/angular` packages from [npm](https://npmjs.com). This comes with all of the Stories Components and Angular specific services and story renderer.
 
 ```shell
-$ npm install @stories-js/stories-angular@latest --save
+$ npm install @stories-js/components@latest --save
+$ npm install @stories-js/angular@latest --save
 ```
 
 Each time there is a new Stories Angular release, this version will need to be updated to get the latest features and fixes.
@@ -36,27 +37,30 @@ Each time there is a new Stories Angular release, this version will need to be u
 For adding Stories Angular to an already existing Angular project, use the Angular CLI's `ng add` feature.
 
 ```shell
-$ ng add @stories-js/stories-angular
+$ ng add @stories-js/components
+$ ng add @stories-js/angular
 ```
 
-This will add the necessary imports to the `@stories-js/stories-angular` package as well as add the styles needed.
+This will add the necessary imports to the `@stories-js/angular` package as well as add the styles needed.
 
 ## Stories in React project
 
-When using Stories Components in a React project, install the latest `@stories-js/stories-react` package from [npm](https://npmjs.com). This comes with all of the Stories Components and React story renderer.
+When using Stories Components in a React project, install the latest `@stories-js/components` and `@stories-js/react` packages from [npm](https://npmjs.com). This comes with all of the Stories Components and React story renderer.
 
 ```shell
-$ npm install @stories-js/stories-react@latest --save
+$ npm install @stories-js/components@latest --save
+$ npm install @stories-js/react@latest --save
 ```
 
 Each time there is a new Stories React release, this version will need to be updated to get the latest features and fixes.
 
 ## Stories in Vue project
 
-To add Stories Components to an existing Vue project, install the `@stories-js/stories-vue` package. This comes with all of the Stories Components and Vue story renderer.
+To add Stories Components to an existing Vue project, install the `@stories-js/components` and `@stories-js/vue` packages. This comes with all of the Stories Components and Vue story renderer.
 
 ```shell
-$ npm install @stories-js/stories-react@latest --save
+$ npm install @stories-js/components@latest --save
+$ npm install @stories-js/react@latest --save
 ```
 
 Each time there is a new Stories Vue release, this version will need to be updated to get the latest features and fixes.

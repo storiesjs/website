@@ -37,7 +37,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Extend or customize look and feel of your stories with power of Web Components. 
         Start from default layout or completely replace it with your own. 
-        You can precisely control all aspect of your work.
+        You can precisely control all aspects of your work.
       </>
     ),
   },
