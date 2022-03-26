@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const path = require('path');
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -15,6 +17,10 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'storiesjs', // Usually your GitHub org/user name.
   projectName: 'stories', // Usually your repo name.
+
+  plugins: [
+    require.resolve("@cmfcmf/docusaurus-search-local")
+  ],
 
   presets: [
     [
@@ -55,16 +61,47 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/storiesjs/website',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
             position: 'right',
           },
+          // {
+          // type: 'iconLink',
+          //   position: 'right',
+          //   icon: {
+          //     alt: 'twitter logo',
+          //     src: `/logos/twitter.svg`,
+          //     href: 'https://twitter.com/storiesjs',
+          //     target: '_blank',
+          //   },
+          // },
+          // {
+          //   type: 'iconLink',
+          //   position: 'right',
+          //   icon: {
+          //     alt: 'github logo',
+          //     src: `/logos/github.svg`,
+          //     href: 'https://github.com/storiesjs/stories',
+          //     target: '_blank',
+          //   },
+          // },
+          {
+            href: 'https://github.com/storiesjs/stories',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
+          // {
+          //   type: 'iconLink',
+          //   position: 'right',
+          //   icon: {
+          //     alt: 'discord logo',
+          //     src: `/logos/discord.svg`,
+          //     href: 'https://ionic.link/storiesjs',
+          //     target: '_blank',
+          //   },
+          // },
         ],
       },
       footer: {
@@ -79,11 +116,11 @@ const config = {
               },
               {
                 label: 'Guides',
-                to: '/docs',
+                to: '/docs/guides',
               },
               {
                 label: 'Components',
-                to: '/docs',
+                to: '/docs/components',
               }
             ],
           },
