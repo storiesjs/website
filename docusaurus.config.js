@@ -1,8 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const BASE_URL = '/';
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -124,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} StoriesJS. Built with Docusaurus.`,
+        copyright: `Copyright © 2021-${new Date().getFullYear()} StoriesJS. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

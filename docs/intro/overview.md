@@ -10,6 +10,7 @@ You can seamlessly integrate Stories with various cross-platform native and web 
 - [Angular](/docs/angular/overview)
 - [React](/docs/react/overview)
 - [Vue](/docs/vue/overview)
+
 Alternatively, it can be used standalone without any frontend framework using a simple script include.
 
 Stories supports visual testing on both client and server-side rendering out of the box!

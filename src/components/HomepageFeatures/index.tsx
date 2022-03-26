@@ -14,28 +14,30 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Stories was designed from the ground up to be easily installed and used to start writing your stories quickly.
+        Stories lets you focus on your components, and we&apos;ll do the chores.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Build with your tech',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Choise of the frontend framework is yours. 
+        Stories is developed to start writing stories locally or in cloud with all best frontend frameworks, 
+        including Angular, React, Vue, or with vanilla JavaScript.
+      </>
+    ),
+  },
+  {
+    title: 'Powered by Web Components',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Extend or customize look and feel of your stories with power of Web Components. 
+        Start from default layout or completely replace it with your own. 
+        You can precisely control all aspect of your work.
       </>
     ),
   },

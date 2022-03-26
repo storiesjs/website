@@ -4,7 +4,7 @@ sidebar_label: Packages & CDN
 sidebar_position: 2
 ---
 
-Stories provides different packages that can be used to quickly get started using Stories Components in Angular, any other framework, or none at all.
+Stories provides different packages that can be used to quickly get started using Stories Components with framework, or none at all.
 
 ## Stories Components CDN
 
@@ -20,7 +20,7 @@ It's recommended to use [jsdelivr](https://www.jsdelivr.com/) to access the Stor
 With this it's possible to use all of the Stories Components without having to install a framework.
 
 :::note
-This does not install React or any other frameworks. This allows use of the Stories Components without a framework.
+This does not install any frameworks integrations. This allows use of the Stories Components without a framework.
 :::
 
 ## Stories in Angular project
