@@ -13,8 +13,8 @@ Stories Components can be included from a CDN for quick testing in a [Plunker](h
 It's recommended to use [jsdelivr](https://www.jsdelivr.com/) to access the Stories Components from a CDN. To get the latest version, add the following inside the `<head>` element in an HTML file, or where external assets are included in the online code editor:
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/@stories-js/components@latest/dist/esm/index.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@stories-js/components@latest/dist/index.cjs.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@stories-js/components/dist/esm/index.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@stories-js/components/dist/index.cjs.min.js"></script>
 ```
 
 With this it's possible to use all of the Stories Components without having to install a framework.

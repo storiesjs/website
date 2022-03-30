@@ -10,13 +10,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Stories',
   tagline: 'The Web Components based tool for UI development',
-  url: 'https://www.storiesjs.org',
+  url: 'https://storiesjs.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'storiesjs', // Usually your GitHub org/user name.
-  projectName: 'stories', // Usually your repo name.
+  projectName: 'website', // Usually your repo name.
+  trailingSlash: false,
 
   plugins: [
     require.resolve("@cmfcmf/docusaurus-search-local")
@@ -29,14 +30,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/storiesjs/website/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/storiesjs/website/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -115,42 +114,46 @@ const config = {
                 to: '/docs/intro/overview',
               },
               {
-                label: 'Guides',
-                to: '/docs/guides',
+                label: 'Components',
+                to: '/docs/components/overview',
               },
               {
-                label: 'Components',
-                to: '/docs/components',
+                label: 'CLI',
+                to: '/docs/cli/overview',
+              },
+              {
+                label: 'Addons',
+                to: '/docs/addons/overview',
               }
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/@storiesjs',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/@storiesjs',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/@storiesjs',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/@storiesjs',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/@storiesjs',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/@storiesjs',
+          //     },
+          //   ],
+          // },
           {
             title: 'Resources',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/storiesjs/stories',
               },
               {
                 label: 'Contact us',
