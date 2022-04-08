@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Stories',
+  title: 'Stories Framework',
   tagline: 'The Web Components based tool for UI development',
   url: 'https://storiesjs.org',
   baseUrl: '/',
@@ -56,9 +56,27 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro/overview',
+            docId: 'index',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'doc',
+            docId: 'components',
+            position: 'left',
+            label: 'Components',
+          },
+          {
+            type: 'doc',
+            docId: 'addons',
+            position: 'left',
+            label: 'Addons',
+          },
+          {
+            type: 'doc',
+            docId: 'cli',
+            position: 'left',
+            label: 'CLI',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

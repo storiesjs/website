@@ -1,8 +1,15 @@
 ---
 title: Stories Angular Overview
 sidebar_label: Overview
-sidebar_position: 1
 ---
+
+<head>
+  <title>Stories Angular Overview | Stories Angular Version Support and Tooling</title>
+  <meta
+    name="description"
+    content="@stories/angular combines the tooling and APIs tailored to Angular Developers. Learn more about version support in our Angular Overview."
+  />
+</head>
 
 The `@stories-js/angular` package has Angular component wrappers for Stories's web components. You may use them within any Angular application. The package as well includes the Stories renderer implemented on Angular.
 

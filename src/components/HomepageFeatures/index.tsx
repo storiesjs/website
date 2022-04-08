@@ -14,8 +14,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Stories was designed from the ground up to be easily installed and used to start writing your stories quickly.
-        Stories lets you focus on your components, and we&apos;ll do the chores.
+        Stories Framework was designed from the ground up to be easily installed and used to start writing your stories quickly.
+        It lets you focus on your components, and we&apos;ll do the chores.
       </>
     ),
   },

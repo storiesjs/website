@@ -1,8 +1,15 @@
 ---
 title: Stories Packages
 sidebar_label: Packages & CDN
-sidebar_position: 2
 ---
+
+<head>
+  <title>Stories Packages: CDN, Angular, Vue, and React</title>
+  <meta
+    name="description"
+    content="View our different packages that can be used to quickly start using Stories in a test environment, Angular, Vue, React, or none at all."
+  />
+</head>
 
 Stories provides different packages that can be used to quickly get started using Stories Components with framework, or none at all.
 
