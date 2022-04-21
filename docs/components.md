@@ -7,7 +7,7 @@ hide_table_of_contents: true
   <title>UI Components | User Interface Stories Building Components</title>
   <meta
     name="description"
-    content="Stories comes stock with a number of high-level UI components, including cards, lists, and tabs to quickly and easily build your stories user interface."
+    content="Stories Framework comes stock with a number of high-level UI components, including buttons, grid, and tabs to quickly and easily build your stories' user interface."
   />
   <style>{`
     :root {
@@ -16,4 +16,4 @@ hide_table_of_contents: true
   `}</style>
 </head>
 
-Stories are made of high-level building blocks called Components, which allow you to quickly construct the UI for your them. Stories comes stock with a number of components, including cards, lists, and tabs.
+Stories are made of high-level building blocks called components, which allow you to quickly construct the UI for your theme. Stories Framework comes in stock with a number of components, including buttons, grids, and tabs.
