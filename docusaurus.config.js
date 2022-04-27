@@ -68,15 +68,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'addons',
-            position: 'left',
-            label: 'Addons',
-          },
-          {
-            type: 'doc',
             docId: 'cli',
             position: 'left',
             label: 'CLI',
+          },
+          {
+            type: 'doc',
+            docId: 'addons',
+            position: 'left',
+            label: 'Addons',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -129,19 +129,19 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro/overview',
+                to: '/docs',
               },
               {
                 label: 'Components',
-                to: '/docs/components/overview',
+                to: '/docs/components',
               },
               {
                 label: 'CLI',
-                to: '/docs/cli/overview',
+                to: '/docs/cli',
               },
               {
                 label: 'Addons',
-                to: '/docs/addons/overview',
+                to: '/docs/addons',
               }
             ],
           },
