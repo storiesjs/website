@@ -72,7 +72,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['addons',],
+      items: ['addons-intro',],
     },
     {
       type: 'category',
