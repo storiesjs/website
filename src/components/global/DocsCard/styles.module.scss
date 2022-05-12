@@ -60,6 +60,11 @@ docs-card[disabled]::after {
     box-shadow: var(--docs-card-shadow);
     text-decoration: none;
 
+    :global(.Card-icon-default) {
+      opacity: 0;
+      width: 0px;
+    }
+
     :global(.Card-icon-hover) {
       opacity: 1;
     }
@@ -102,7 +107,7 @@ docs-card[disabled]::after {
   }
 
   .Card-icon-default {
-    transition: opacity 150ms ease-out;
+    // transition: opacity 150ms ease-out;
   }
 
   .Card-icon-hover {
@@ -111,7 +116,7 @@ docs-card[disabled]::after {
 
     opacity: 0;
 
-    transition: opacity 150ms ease-out;
+    // transition: opacity 150ms ease-out;
   }
 
   .Card-icon-row {

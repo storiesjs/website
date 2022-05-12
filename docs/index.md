@@ -5,6 +5,9 @@ slug: /
 hide_table_of_contents: true
 ---
 
+import DocsCard from '@components/global/DocsCard';
+import DocsCards from '@components/global/DocsCards';
+
 <head>
   <title>Open-Source UI Toolkit for visually testing and documenting UI components and pages</title>
   <meta
@@ -27,3 +30,21 @@ You can seamlessly integrate Stories with various cross-platform native and web 
 Alternatively, it can be used standalone without any frontend framework using a simple [script include](/docs/intro/cdn) on web page.
 
 Stories supports visual testing and documentation on both client and server-side rendering out of the box!
+
+<DocsCards>
+  <DocsCard 
+    header="Installation Guide" 
+    href="/intro/cli" 
+    icon="/icons/guide-installation-icon.svg" 
+    hoverIcon="/icons/guide-installation-icon-hover.svg">
+    <p>Step-by-step guides to setting up your system and installing the framework.</p>
+  </DocsCard>
+
+  <DocsCard
+    header="UI Components"
+    href="/components"
+    icon="/icons/guide-components-icon.svg"
+    hoverIcon="/icons/guide-components-icon-hover.svg">
+    <p>Dive into Ionic beautifully designed UI component library.</p>
+  </DocsCard>
+</DocsCards>

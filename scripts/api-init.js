@@ -93,7 +93,7 @@ function renderFrontmatter({ tag }) {
 
   const demoPath = `api/${tag.slice(4)}/index.html`;
   if (fs.existsSync(path.join(DEMOS_PATH, demoPath))) {
-    frontmatter.demoUrl = `/docs/demos/${demoPath}`;
+    frontmatter.demoUrl = `/demos/${demoPath}`;
     frontmatter.demoSourceUrl = `https://github.com/storiesjs/website/tree/main/static/demos/${demoPath}`;
   }
 

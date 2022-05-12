@@ -4,7 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['index', 'intro/story', 'intro/cdn', 'intro/next',],
+      items: ['index', 'intro/story', 'intro/cdn',],
     },
     {
       type: 'category',

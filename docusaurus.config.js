@@ -33,6 +33,8 @@ const config = {
         },
       },
     ],
+    '@docusaurus/theme-live-codeblock',
+    'docusaurus-node-polyfills'
   ],
 
   presets: [
@@ -43,6 +45,15 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/storiesjs/website/edit/main/',
+          // highlight-start
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+          ],
+          // highlight-end
+        },
+        pages: {
+          // highlight-next-line
+          remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
         },
         blog: {
           showReadingTime: true,
@@ -50,7 +61,12 @@ const config = {
             'https://github.com/storiesjs/website/blog',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./node_modules/modern-normalize/modern-normalize.css'),
+            require.resolve('./src/css/markdown.scss'),
+            require.resolve('./src/css/tokens.css'),
+            require.resolve('./src/css/custom.css'),
+          ]
         },
       }),
     ],
@@ -60,7 +76,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Stories',
+        title: 'Stories Framework',
         logo: {
           alt: 'Stories Logo',
           src: 'img/logo.svg',
@@ -197,6 +213,13 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      liveCodeBlock: {
+        /**
+        * The position of the live playground, above or under the editor
+        * Possible values: "top" | "bottom"
+        */
+        playgroundPosition: 'bottom',
       },
     }),
 };
