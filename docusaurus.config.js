@@ -63,6 +63,7 @@ const config = {
         theme: {
           customCss: [
             require.resolve('./node_modules/modern-normalize/modern-normalize.css'),
+            require.resolve('./src/css/admonition.scss'),
             require.resolve('./src/css/markdown.scss'),
             require.resolve('./src/css/tokens.css'),
             require.resolve('./src/css/custom.css'),
@@ -151,63 +152,63 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Introduction',
-                to: '/docs',
-              },
-              {
-                label: 'Components',
-                to: '/docs/components',
-              },
-              {
-                label: 'CLI',
-                to: '/docs/cli',
-              },
-              {
-                label: 'Addons',
-                to: '/docs/addons-intro',
-              }
-            ],
-          },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/@storiesjs',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/@storiesjs',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/@storiesjs',
-          //     },
-          //   ],
-          // },
-          {
-            title: 'Resources',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/storiesjs/stories',
-              },
-              {
-                label: 'Contact us',
-                to: '/contact',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Introduction',
+        //         to: '/docs',
+        //       },
+        //       {
+        //         label: 'Components',
+        //         to: '/docs/components',
+        //       },
+        //       {
+        //         label: 'CLI',
+        //         to: '/docs/cli',
+        //       },
+        //       {
+        //         label: 'Addons',
+        //         to: '/docs/addons-intro',
+        //       }
+        //     ],
+        //   },
+        //   // {
+        //   //   title: 'Community',
+        //   //   items: [
+        //   //     {
+        //   //       label: 'Stack Overflow',
+        //   //       href: 'https://stackoverflow.com/questions/tagged/@storiesjs',
+        //   //     },
+        //   //     {
+        //   //       label: 'Discord',
+        //   //       href: 'https://discordapp.com/invite/@storiesjs',
+        //   //     },
+        //   //     {
+        //   //       label: 'Twitter',
+        //   //       href: 'https://twitter.com/@storiesjs',
+        //   //     },
+        //   //   ],
+        //   // },
+        //   {
+        //     title: 'Resources',
+        //     items: [
+        //       // {
+        //       //   label: 'Blog',
+        //       //   to: '/blog',
+        //       // },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/storiesjs/stories',
+        //       },
+        //       {
+        //         label: 'Contact us',
+        //         to: '/contact',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © 2021-${new Date().getFullYear()} StoriesJS. Built with Docusaurus.`,
       },
       prism: {

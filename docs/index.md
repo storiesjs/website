@@ -2,7 +2,7 @@
 title: Introduction to Stories Framework
 sidebar_label: Overview
 slug: /
-hide_table_of_contents: true
+# hide_table_of_contents: true
 ---
 
 import DocsCard from '@components/global/DocsCard';
@@ -22,6 +22,8 @@ import DocsCards from '@components/global/DocsCards';
 
 Stories Framework is a set of [packages](https://github.com/storiesjs/stories/tree/main/packages) that helps you visually test and document UI components and pages in an isolated environment in the context of the application. The main element of Stories is Web Components and their encapsulation ability to keep the markup structure, style and behaviour, hidden and separate from other running code of an application. The Shadow DOM is a key part of this, providing a way for different components to not clash with each other. Web Components as a web standard, widely supported by default in Firefox, Chrome, Opera, Safari, and Chromium-based Edge and make them the best candidate for Stories.
 
+## Integration
+
 You can seamlessly integrate Stories with various cross-platform native and web app experiences. Here is a list of those tested so far:
 - [Angular](/docs/angular/overview)
 - [React](/docs/react/overview)
@@ -29,12 +31,18 @@ You can seamlessly integrate Stories with various cross-platform native and web 
 
 Alternatively, it can be used standalone without any frontend framework using a simple [script include](/docs/intro/cdn) on web page.
 
+## Client and server-side rendering
+
 Stories supports visual testing and documentation on both client and server-side rendering out of the box!
+
+## Local and in-cloud development
+
+Get started building by installing Stories Framework packages locally or using them in the online code editors.
 
 <DocsCards>
   <DocsCard 
     header="Installation Guide" 
-    href="/intro/cli" 
+    href="/docs/intro/cdn" 
     icon="/icons/guide-installation-icon.svg" 
     hoverIcon="/icons/guide-installation-icon-hover.svg">
     <p>Step-by-step guides to setting up your system and installing the framework.</p>
@@ -42,9 +50,9 @@ Stories supports visual testing and documentation on both client and server-side
 
   <DocsCard
     header="UI Components"
-    href="/components"
+    href="/docs/components"
     icon="/icons/guide-components-icon.svg"
     hoverIcon="/icons/guide-components-icon-hover.svg">
-    <p>Dive into Ionic beautifully designed UI component library.</p>
+    <p>Dive into Stories Framework designed UI component library.</p>
   </DocsCard>
 </DocsCards>
